@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    height: 11vh;
+    background-color: #3F6C67;
+    border: 2px solid #255957;
+    
+}
+
+h1{
+padding-top: 5px;
+  text-align: center;
+}
+
+.nav-section{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    font-size: 1.5rem;
+    /* margin:2px; */
+}
+
+.nav-first{
+    width: 50vw;  
+}
+
+.nav-second{
+    width: 50vw;
+    display: flex;
+   justify-content: end;
+}
+
+/* content */
+.content{
+    display: flex;
+}
+
+.content-first{
+    height: 89vh;
+    width: 70vw;
+    border-right: 1.8rem solid #CCB98B;
+}
+
+.input-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  
+}
+
+#input{
+    height: 40px;
+    width: 50%;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #eeebd3;
+}
+#date{
+    height: 38px;
+    width: 25%;
+    font-size: 1rem;
+     background-color: #eeebd3;
+}
+
+#btnAdd{
+     height: 38px;
+     width: 15%;
+      font-size: 1rem;
+       background-color: #CCB98B;
+}
+
+.card-container{
+    /* border: 2px solid black; */
+    height:82vh ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 25vh;
+    width: 12vw;
+    background-color: #8aa295;
+    margin: 20px;
+    border: 2px solid black;
+}
+#card-delete{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #eeebd3;
+
+}
+
+
+/* content second  */
+
+/* .content-second
+} */
+
+.theme, .date{
+    height: 23vh;
+    width: 20rem;
+    border: 3.5px solid #3F6C67;
+    border-radius: 30px;
+    text-align: center;
+    margin:20px;
+    font-family: cursive;
+}
+
+.theme p, .date p{
+    font-size: 2rem;
+    /* font-family: cursive; */
+}
+
+#change-theme, #input-date , #reset{
+    height: 50px;
+    font-size:1.2rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 10vw;
+    background-color: #ccb98b;
+
+}
+
+#reset{
+    height: 25px;
+}
+
+h2{
+text-align: center;
+}
+
+/* .changeTheme{
+    background-color: black;
+    color: white;
+
+} */
+
+.dark{
+      background-color: black;
+    color: white;
+}
+
